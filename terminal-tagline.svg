@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="62" viewBox="0 0 840 62" role="img" aria-labelledby="tagline">
+  <title id="tagline">Inquire. Articulate. Empower.</title>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .phrase { animation: type 8s steps(29, end) 2 both; }
+      .cursor { animation: travel 8s steps(29, end) 2 both, blink 1s steps(1, end) 16; }
+    }
+    @keyframes type {
+      0%, 4% { clip-path: inset(0 100% 0 0); }
+      36%, 100% { clip-path: inset(0); }
+    }
+    @keyframes travel {
+      0%, 4% { transform: translateX(-392px); }
+      36%, 100% { transform: translateX(0); }
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect x="0.5" y="0.5" width="839" height="61" rx="6" fill="#0b1b2d" stroke="#214050"/>
+  <g font-family="Consolas, Menlo, monospace" font-size="23" font-weight="600">
+    <text x="28" y="39" fill="#5ef0b3">&gt;</text>
+    <text class="phrase" x="54" y="39" fill="#f1f7fa" textLength="392" lengthAdjust="spacingAndGlyphs">Inquire. Articulate. Empower.</text>
+  </g>
+  <rect class="cursor" x="450" y="22" width="3" height="19" rx="1" fill="#5ef0b3"/>
+</svg>
