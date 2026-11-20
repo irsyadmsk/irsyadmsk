@@ -63,14 +63,16 @@ research:
 
 ## GitHub stats
 
-<p align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=irsyadmsk&amp;theme=github_dark" alt="GitHub summary and yearly contribution chart" width="100%"></p>
+<p align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=irsyadmsk&amp;theme=nord_dark" alt="GitHub summary and yearly contribution chart" width="100%"></p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=irsyadmsk&amp;theme=github_dark" alt="GitHub stats: stars, commits, pull requests, issues, and contributions" width="48%">
-  <img src="https://streak-stats.demolab.com/?user=irsyadmsk&amp;theme=github-dark-blue" alt="GitHub contribution streak" width="48%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=irsyadmsk&amp;theme=github_dark" alt="Top languages by repository" width="48%">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=irsyadmsk&amp;theme=github_dark" alt="Top languages by commit" width="48%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=irsyadmsk&amp;theme=nord_dark" alt="GitHub stats: stars, commits, pull requests, issues, and contributions" width="48%">
+  <img src="https://streak-stats.demolab.com/?user=irsyadmsk&amp;theme=nord" alt="GitHub contribution streak" width="48%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=irsyadmsk&amp;theme=nord_dark" alt="Top languages by repository" width="48%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=irsyadmsk&amp;theme=nord_dark" alt="Top languages by commit" width="48%">
 </p>
+
+GitHub stats cards reflect publicly visible activity.
 
 ## Activity graph
 
