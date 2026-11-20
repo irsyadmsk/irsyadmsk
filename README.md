@@ -1,16 +1,24 @@
-## Hi there 👋
+![Terminal banner for irsyadmsk](./profile-banner.jpg)
 
-<!--
-**irsyadmsk/irsyadmsk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Muhammad Irsyad Sirojul Khoeir
 
-Here are some ideas to get you started:
+I teach sociology and founded [Irsyads](https://irsyads.com/), where I build digital tools for schools and madrasahs.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About me
+
+```yaml
+roles: [Educator, Communication Researcher, Founder of Irsyads]
+research: [Islamic Communication, Sociology of Religion]
+building:
+  - Curriculum planning and scheduling
+  - Online courses and assessments
+  - Digital document verification
+```
+
+## Selected projects
+
+| Project | What it does |
+| --- | --- |
+| [Irsyads Curriculum](https://curriculum.irsyads.com/) | Curriculum planning, syllabi, and academic schedules for madrasahs. |
+| [Irsyads Academy](https://academy.irsyads.com/) | Online courses, learning materials, and assessments. |
+| [Irsyads Verify](https://verify.irsyads.com/) | Verification for documents and electronic signatures. |
