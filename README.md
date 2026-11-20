@@ -16,6 +16,21 @@ I lead curriculum and teach sociology at MA Insan Cendekia Nusantara. I also lec
 
 [**Academic CV**](https://irsyads.com/cv) · [**Publications**](https://irsyads.com/library) · [**Certificates**](https://irsyads.com/certificates)
 
+## Current focus
+
+[![Wallet, the primary Irsyads project for personal and family finances](./cards/wallet.svg)](https://wallet.irsyads.com/)
+
+[**Open Wallet**](https://wallet.irsyads.com/) · [Android APK](https://github.com/irsyadmsk/wallet/releases/tag/apk-latest) · [GitHub repository](https://github.com/irsyadmsk/wallet)
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top"><a href="https://mosque.irsyads.com/"><img src="./cards/masjidku.svg" alt="MasjidKU TV: Offline prayer times and announcements on Android TV" width="408"></a><br><a href="https://mosque.irsyads.com/">Open MasjidKU TV</a> · <a href="https://github.com/irsyadmsk/masjidku-downloads">Downloads and releases</a></td>
+<td width="50%" valign="top"><a href="https://gate.irsyads.com/"><img src="./cards/gate.svg" alt="Gate: Visitor check-in, student leave, and guard handovers" width="408"></a><br><a href="https://gate.irsyads.com/">Open Gate</a> · <a href="https://github.com/irsyadmsk/gate">GitHub repository</a></td>
+</tr>
+</table>
+
+More about the team and our products at [**Irsyads Labs**](https://github.com/irsyads-labs).
+
 ## About me
 
 ```yaml
@@ -44,7 +59,7 @@ research:
 | ![HTML, CSS, JavaScript, TypeScript](https://skillicons.dev/icons?i=html,css,js,ts&theme=dark) | ![Kotlin, Dart, Flutter](https://skillicons.dev/icons?i=kotlin,dart,flutter&theme=dark) | ![Git, GitHub, Cloudflare](https://skillicons.dev/icons?i=git,github,cloudflare&theme=dark) |
 | HTML · CSS · JavaScript · TypeScript | Kotlin · Dart · Flutter | Git · GitHub · Cloudflare |
 
-## Featured projects
+## More from Irsyads
 
 <table width="100%">
 <tr>
@@ -57,7 +72,7 @@ research:
 </tr>
 <tr>
 <td width="50%" valign="top" align="center"><a href="https://letters.irsyads.com/"><img src="./cards/letters.svg" alt="Irsyads Letters: Request electronically signed letters online." width="408"></a><br><a href="https://letters.irsyads.com/">Open project ↗</a></td>
-<td width="50%" valign="top" align="center"><a href="https://mosque.irsyads.com/"><img src="./cards/mosque.svg" alt="Irsyads Mosque: Prayer times and announcements for mosque displays." width="408"></a><br><a href="https://github.com/irsyadmsk/masjidku-downloads">GitHub repository</a> · <a href="https://mosque.irsyads.com/">Open project ↗</a></td>
+<td></td>
 </tr>
 </table>
 
