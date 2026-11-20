@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 378" width="1260" height="378" role="img" aria-labelledby="title desc">
+  <title id="title">irsyadmsk · Building tools for education</title>
+  <desc id="desc">A terminal banner with an open book drawn as a glowing circuit.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#061322"/>
+      <stop offset="1" stop-color="#0b2434"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#1b716c" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#102a3b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="page-ink" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#95ffd0"/>
+      <stop offset="1" stop-color="#30c6ae"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#4b8292" stroke-opacity=".26"/>
+    </pattern>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1.1" fill="#8fcbcd" fill-opacity=".4"/>
+    </pattern>
+    <linearGradient id="sweep">
+      <stop stop-color="#3debc1" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#3debc1" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#3debc1" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1260" height="378" rx="11"/></clipPath>
+    <clipPath id="diagram"><rect x="655" width="605" height="378"/></clipPath>
+    <path id="trace-a" pathLength="1" d="M654 73H721L768 120H819L863 164H935L986 113H1067L1110 70H1260"/>
+    <path id="trace-b" pathLength="1" d="M663 300H731L782 249H837L878 208H942L1000 266H1071L1110 305H1260"/>
+    <path id="trace-c" pathLength="1" d="M1230 176H1148L1110 214H1049L1006 171H950L900 121H798"/>
+    <path id="book" d="M940 122C903 95 852 98 807 114V241C852 225 903 225 940 253C977 225 1028 225 1073 241V114C1028 98 977 95 940 122Z M940 122V253"/>
+    <filter id="soft-signal" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .trail { opacity: 0; }
+    .ring { transform-box: fill-box; transform-origin: center; opacity: 0; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .intro { animation: arrive .72s cubic-bezier(.2,.75,.22,1) both; }
+      .intro-handle { animation-delay: 90ms; }
+      .intro-tagline { animation-delay: 190ms; }
+      .beam { animation: sweep 7s ease-in-out infinite; }
+      .trail {
+        stroke-dasharray: .11 .89;
+        animation: signal 4.8s linear infinite;
+        opacity: .95;
+      }
+      .trail-b { animation-delay: -1.7s; animation-duration: 5.8s; }
+      .trail-c { animation-delay: -2.2s; animation-duration: 6.6s; }
+      .ring { animation: ripple 3.8s ease-out infinite; }
+      .ring-b { animation-delay: -1.35s; }
+      .ring-c { animation-delay: -2.65s; }
+      .book { animation: breathe 5s ease-in-out infinite; }
+    }
+
+    @keyframes arrive {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes sweep {
+      0%, 8% { transform: translateX(0); opacity: 0; }
+      22%, 60% { opacity: 1; }
+      86%, 100% { transform: translateX(900px); opacity: 0; }
+    }
+    @keyframes signal { to { stroke-dashoffset: -1; } }
+    @keyframes ripple {
+      0% { transform: scale(.8); opacity: .85; }
+      60%, 100% { transform: scale(2.8); opacity: 0; }
+    }
+    @keyframes breathe {
+      0%, 100% { opacity: .82; }
+      50% { opacity: 1; }
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1260" height="378" fill="url(#background)"/>
+    <ellipse cx="947" cy="184" rx="396" ry="235" fill="url(#halo)"/>
+    <rect width="1260" height="378" fill="url(#grid)" opacity=".48"/>
+    <rect x="655" width="605" height="378" fill="url(#dots)" opacity=".45"/>
+    <g clip-path="url(#diagram)">
+      <rect class="beam" x="494" y="0" width="165" height="378" fill="url(#sweep)" opacity="0"/>
+      <g fill="none" stroke="#3d8790" stroke-width="1.3" opacity=".56">
+        <use href="#trace-a"/><use href="#trace-b"/><use href="#trace-c"/>
+        <circle cx="940" cy="179" r="123" stroke-dasharray="2 7"/>
+        <circle cx="940" cy="179" r="157" stroke-opacity=".43"/>
+        <path d="M940 17V42M940 315V340M778 179H799M1082 179H1103"/>
+      </g>
+      <g fill="none" stroke-linecap="round" stroke-width="2.7" filter="url(#soft-signal)">
+        <use class="trail" href="#trace-a" stroke="#74ffc3"/>
+        <use class="trail trail-b" href="#trace-b" stroke="#48d7df"/>
+        <use class="trail trail-c" href="#trace-c" stroke="#8effb8"/>
+      </g>
+      <g fill="#81ffd2" stroke="#163f44" stroke-width="1">
+        <circle cx="721" cy="73" r="3.4"/><circle cx="731" cy="300" r="3.4"/>
+        <circle cx="1110" cy="70" r="3.4"/><circle cx="1110" cy="214" r="3.4"/>
+        <circle cx="1110" cy="305" r="3.4"/>
+      </g>
+      <g fill="none" stroke="#76ffc7" stroke-width="1.1">
+        <circle class="ring" cx="721" cy="73" r="7"/>
+        <circle class="ring ring-b" cx="1110" cy="214" r="7"/>
+        <circle class="ring ring-c" cx="1110" cy="305" r="7"/>
+      </g>
+      <g class="book" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M807 124L792 131V260C850 244 902 245 935 270Q940 276 945 270C978 245 1030 244 1088 260V131L1073 124" fill="#0a2635" stroke="#32968c" stroke-width="2.5"/>
+        <use href="#book" fill="#0b2936" stroke="url(#page-ink)" stroke-width="3.2"/>
+        <path d="M827 135Q875 124 914 149M827 155Q875 144 914 169M827 175Q875 164 914 189M827 195Q875 184 902 204" fill="none" stroke="#58b3ab" stroke-width="2" opacity=".67"/>
+        <path d="M972 208V151M972 190C977 178 990 167 1014 164M972 206C987 194 1005 194 1031 199" fill="none" stroke="#75efb7" stroke-width="3"/>
+        <g fill="#0b2936" stroke="#99ffcb" stroke-width="2.8">
+          <circle cx="972" cy="147" r="5.8"/><circle cx="1019" cy="163" r="5.8"/><circle cx="1037" cy="200" r="5.8"/>
+        </g>
+      </g>
+    </g>
+    <g font-family="Consolas, 'Liberation Mono', monospace">
+      <g class="intro">
+        <rect x="65" y="83" width="147" height="36" rx="6" fill="#10332f" stroke="#30785f"/>
+        <text x="78" y="108" fill="#8affc7" font-size="21" font-weight="700">$ whoami</text>
+      </g>
+      <text class="intro intro-handle" x="61" y="210" fill="#f4fafb" font-size="92" font-weight="700">irsyadmsk</text>
+      <text class="intro intro-tagline" x="67" y="261" fill="#c4d9e3" font-size="30">Building tools for education</text>
+      <path class="intro intro-tagline" d="M67 295H184" stroke="#75f6be" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1259" height="377" rx="11" fill="none" stroke="#315463"/>
+</svg>

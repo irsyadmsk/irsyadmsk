@@ -1,4 +1,4 @@
-![Terminal banner for irsyadmsk: Building tools for education](./profile-banner.jpg)
+![Terminal banner for irsyadmsk: Building tools for education](./profile-hero.svg)
 
 ![Inquire. Articulate. Empower.](./terminal-tagline.svg)
 
